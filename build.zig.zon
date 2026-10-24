@@ -1,0 +1,16 @@
+.{
+    .name = .glfw,
+    .version = "3.5.1",
+    .fingerprint = 0x3bbe0a5cbb449b11,
+    .minimum_zig_version = "0.17.0",
+    .dependencies = .{
+        .upstream = .{
+            .url = "https://github.com/glfw/glfw/archive/refs/tags/3.5.1.tar.gz",
+            .hash = "N-V-__8AAFAoSgCaIXvRyU85vZ0bKDcZLaUHWrojNKxEio2r",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
